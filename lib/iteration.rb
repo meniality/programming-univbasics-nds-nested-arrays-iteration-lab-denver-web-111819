@@ -16,6 +16,7 @@ def find_greater_pair(src)
   while row_index < src.length do
     if src[row_index][0] > src[row_index][1] 
     else  
+    end
   end 
 end
 
