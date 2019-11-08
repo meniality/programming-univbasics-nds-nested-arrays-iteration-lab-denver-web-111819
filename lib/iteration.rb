@@ -1,6 +1,10 @@
 def join_ingredients(src)
+  row_index = 0 
   
-  while 
+  while row_index < src.length do
+    element_index = 0 
+  end
+  end  
 end
 
 def find_greater_pair(src)
