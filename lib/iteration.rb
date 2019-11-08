@@ -14,10 +14,13 @@ def find_greater_pair(src)
   highest_numnber_array = []
   
   while row_index < src.length do
-    if src[row_index][0] > src[row_index][1] 
+    if src[row_index][0] > src[row_index][1]
+      highest_numnber_array.push(src[row_index][0])
     else  
+      highest_numnber_array.push(src[row_index][1])
     end
   end 
+  return highest_numnber_array
 end
 
 def total_even_pairs(src)
