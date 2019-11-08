@@ -19,6 +19,7 @@ def find_greater_pair(src)
     else  
       highest_numnber_array.push(src[row_index][1])
     end
+    row_index += 1
   end 
   return highest_numnber_array
 end
