@@ -1,11 +1,10 @@
 def join_ingredients(src)
-  row_index = 0 
+  row_index = 0
+  finished_sentences = []
   
   while row_index < src.length do
-    element_index = 0 
-    while element_index<
-    end
-  end  
+    finished_sentences.push("I love #{src[row_index]")
+  end
 end
 
 def find_greater_pair(src)
